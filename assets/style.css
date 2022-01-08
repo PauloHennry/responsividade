@@ -2,4 +2,91 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    overflow: hidden;
 }
+
+/*Estitlização do navbar*/
+.box-principal-header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100vw;
+    height: 10vh;
+    width: 100vw;
+    min-width: 100%;
+}
+.h1-header{
+    font-size: 3em;
+    text-transform: capitalize;
+    font-family: system-ui;
+    font-style: italic;
+    color: #0000ffb8;
+    margin: 10px;
+    padding: 10px;
+}
+.nav-links{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 100;
+    color: cornflowerblue;
+    margin: 15px;
+    padding: 5px;
+}
+.nav-links:hover{
+    color:#0000ffb8;
+}
+
+/* estilização onde fica a imagem central após o header*/
+
+.img-principal-header{
+    background-image: url(/assets/img/img-header.webp);
+    background-color: #825aed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 38% auto;
+    height: 75vh;
+    background-position: right;
+    
+}
+.box-cont-novas-capinhas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    height: 33vw;
+    margin: 70px;
+}
+
+.h1-novas{
+    text-transform: capitalize;
+    font-size: 70px;
+    color: white;
+    margin: 10px;
+    font-style: italic;
+    font-family: ui-rounded;
+}
+.cont-novas{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+.bnt-colecao{
+    font-size: 30px;
+    color:white;
+    background-color: #825aed;
+    padding: 9px;
+    margin: 90px 0px 0px 0;
+    border: solid 1px white;
+    border-radius: 27px;
+    width: 12vw;
+    height: 6vh;
+    transition: ease all 0.2s;
+}
+.bnt-colecao:hover{
+    background-color: white;
+    color:#825aed;
+}
+
